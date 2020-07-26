@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        max-width: 500px;
+        width: 100%;
+        padding: 10px;
+
+        /*Vai sempre decrementar do seu valor width*/
+        box-sizing: border-box;
+
+    }
+</style>
+
+<body>
+
+    <div class="max-width">
+        <button onclick="start()" class="bg-green">Start</button>
+        <button onclick="pause()" class="bg-yellow">Pause</button>
+        <button onclick="stop()" class="bg-red">Stop</button>
+        <h1 id="counter">00:00:00</h1>
+    </div>
+
+    <script src="cron.js"></script>
+</body>
+
+</html>
